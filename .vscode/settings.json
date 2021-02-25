@@ -54,7 +54,11 @@
         "compress.h": "c",
         "num2str.h": "c",
         "reverse.h": "c",
-        "str2num.h": "c"
+        "str2num.h": "c",
+        "cstring": "c",
+        "serialize.h": "c",
+        "utility": "c",
+        "stringop.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

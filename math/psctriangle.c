@@ -12,7 +12,7 @@ void psctriangle(int n)
 
     for (int i = 0; i < 3; i++) //前3层直接打印
     {
-        print_T(n - 1 - i);
+        // print_T(n - 1 - i);
         for (int j = 0; j != i + 1; j++)
         {
             sum = (i == 2 && j == 1) ? 2 : 1;
@@ -25,7 +25,7 @@ void psctriangle(int n)
     insertSeqNode(&list, 0, &sum);
     for (int i = 3; i < n; i++) //第4层开始
     {
-        print_T(n - 1 - i);
+        // print_T(n - 1 - i);
 
         sum = 1;
         insertSeqNode(&list, 0, &sum); //首先添加一个1

@@ -16,7 +16,6 @@ aux_source_directory(./container/graph CONTAINER_GRAPH)
 aux_source_directory(./math MATH)
 aux_source_directory(./strings STRINGS)
 aux_source_directory(./others OTHERS)
-
 aux_source_directory(./tools TOOLS)
 
 aux_source_directory(./include/container INCLUDE_CONTAINER)
@@ -29,19 +28,23 @@ aux_source_directory(./include/utils INCLUDE_UTILS)
 add_executable(
     Algorithm 
     ${MAIN} 
+
     ${UTIL_ARRAY} 
     ${UTIL_DATE} 
     ${UTIL_NUMBER} 
     ${UTIL_STRING} 
     ${UTIL_SORT} 
     ${UTIL_SEARCH} 
+
     ${CONTAINER_LINEARLIST} 
     ${CONTAINER_TREE} 
     ${CONTAINER_GRAPH} 
+
     ${MATH} 
     ${STRINGS} 
     ${OTHERS}
     ${TOOLS}
+    
     ${INCLUDE_CONTAINER}
     ${INCLUDE_MATH}
     ${INCLUDE_OTHERS}
