@@ -8,7 +8,7 @@ void hanoiMain()
     hanoi(i, 'A', 'B', 'C');
 }
 
-void hanoi(int i, char a, char b, char c) //hanoi整体移动
+void hanoi(int i, char a, char b, char c) //hanoi整体移动，从a到c
 {
     if (i == 1)
     {

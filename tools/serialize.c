@@ -1,6 +1,6 @@
 #include "../include/tools/serialize.h"
 
-char flag[20] = "slz_";
+char flag[] = "slz_";
 
 int write_table(void *node_list, int length, char *file_name)
 {

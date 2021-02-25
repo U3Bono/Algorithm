@@ -58,7 +58,8 @@
         "cstring": "c",
         "serialize.h": "c",
         "utility": "c",
-        "stringop.h": "c"
+        "stringop.h": "c",
+        "swapletter.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
