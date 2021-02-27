@@ -59,7 +59,8 @@
         "serialize.h": "c",
         "utility": "c",
         "stringop.h": "c",
-        "swapletter.h": "c"
+        "swapletter.h": "c",
+        "robotjump.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
